@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+nav {
+  padding: 10px;
+  position: relative;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+}
+
+ul {
+  position: relative;
+  right: -168px;
+  padding: 10px;
+  display: flex;
+  top: -22px;
+  gap: 60px;
+  /* align-items: center; */
+}
+.logo {
+  position: relative;
+  left: -166px;
+  top: -17px;
+}
+.logo img {
+  height: 90px;
+  position: relative;
+  top: -7px;
+}
+li,
+a {
+  color: #1c3988;
+  text-decoration: none;
+  list-style: none;
+}
+.flightTravel {
+  position: relative;
+  top: -22px;
+  right: -125px;
+  padding: 10px;
+  background-color: #8c80f5;
+  /* margin-top: 10px;  */
+  border: none;
+  background: #d9d9d9;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.main {
+  position: relative;
+  top: -48px;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../photos/mainPageBack.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  z-index: 1;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+
+.left h2:first-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 28px;
+}
+.left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 112px;
+  position: relative;
+  left: -5px;
+}
+.left h2:last-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 50px;
+}
+
+.right {
+  display: flex;
+  gap: 120px;
+  flex-direction: column;
+  
+}
+
+
+.busButton:hover,
+.flightButton:hover,
+.trainButton:hover {
+  transition: all 0.3s ease-in;
+  transform: translateY(-10px);
+  background-color: #29e625;
+  
+}
+
+.mainButton {
+  padding: 10px;
+  border: none;
+  background: #d9d9d9;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 40px;
+  font-weight: 800;
+}

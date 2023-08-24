@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Antonio", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.mainButton {
+  padding: 10px;
+  border: none;
+  background: #d9d9d9;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 40px;
+  font-weight: 800;
+}
+nav {
+  padding: 10px;
+  position: relative;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+}
+ul {
+  position: relative;
+  right: -168px;
+  padding: 10px;
+  display: flex;
+  top: -22px;
+  gap: 60px;
+  /* align-items: center; */
+}
+.logo {
+  position: relative;
+  left: -166px;
+  top: -17px;
+}
+.logo img {
+  height: 90px;
+  position: relative;
+  top: -7px;
+}
+li,
+a {
+color: #1c3988;
+text-decoration: none;
+list-style: none;
+}
+.flightTravel {
+  position: relative;
+  top: -22px;
+  right: -125px;
+  padding: 10px;
+  background-color: #8c80f5;
+  /* margin-top: 10px;  */
+  border: none;
+  background: #d9d9d9;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.maincontent{
+  display: inline-block;
+  border: 2px solid white;
+  width: 1520px;
+  height: 670px;
+  margin: 2px;
+  background-color: palevioletred;
+  position: fixed;
+  top: 80px;
+}
+.Dharmika{
+  display: inline-block;
+  border: 2px solid red;
+  width: 550px;
+  height: 182px;
+  margin: 2px;
+  border-radius: 25px;
+  position: fixed;
+  top: 190px;
+  left: 180px;
+  background-color: #735aa4;
+}
+.DharmikaImg img{
+  width: 125px;
+  position: relative;
+  left: 400px;
+  top: -40px;
+}
+.Rahul{
+  display: inline-block;
+  border: 2px solid red;
+  width: 550px;
+  height: 182px;
+  margin: 2px;
+  border-radius: 25px;
+  position: fixed;
+  top: 190px;
+  left: 800px;
+  background-color: #735aa4;
+}
+.RahulImg img{
+  width: 125px;
+  position: relative;
+  left: 400px;
+  top: -40px;
+}
+.Ananya{
+  display: inline-block;
+  border: 2px solid red;
+  width: 550px;
+  height: 182px;
+  margin: 2px;
+  border-radius: 25px;
+  position: fixed;
+  top: 430px;
+  left: 800px;
+  background-color: #735aa4;
+}
+.AnanyaImg img{
+  width: 125px;
+  position: relative;
+  left: 400px;
+  top: -40px;
+}
+.Piyush{
+  display: inline-block;
+  border: 2px solid red;
+  width: 550px;
+  height: 182px;
+  margin: 2px;
+  border-radius: 25px;
+  position: fixed;
+  top: 430px;
+  left: 180px;
+  background-color: #735aa4;
+}
+.PiyushImg img{
+  width: 125px;
+  position: relative;
+  left: 400px;
+  top: -40px;
+}
+h2{
+  position: relative;
+  top: 7px;
+  left:10px;
+ color: aqua;
+}
+h3{
+  position: relative;
+  top: 38px;
+  left:10px;
+}
+.logo1 img{
+  height: 70px;
+  position:fixed;
+  top:366px;
+  left: 735px;
+  border-radius: 20%;
+}

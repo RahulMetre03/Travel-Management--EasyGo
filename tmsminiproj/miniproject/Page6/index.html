@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train Travel</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio&family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <img class="aeroplane" src="./photos/last train.png" alt="" />
+    <img class="rightEllipse" src="./photos/Ellipse 8.png" alt="" />
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Back</a></li>
+      </ul>
+      <button class="trainTravel">Contact us</button>
+    </nav>
+
+    <form action="train.php" method="post">
+
+    <div class="form">
+      <h1>Where would you like to go ?</h1>
+      <br />
+      <h2>From</h2>
+      <select class="source" name="source" id="sources">
+        <option value="NULL" selected>Select Your Source</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Delhi">Delhi</option>
+      </select>
+      <br />
+      <h2>To</h2>
+      <select class="destination" name="destination" id="destinations">
+        <option value="NULL" selected>Select Your Destination</option>
+        <option value="Pune">Pune</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Delhi">Delhi</option>
+      </select>
+      <br />
+      <div class="infoFlex">
+      <div class="Date">
+        <h2>Date</h2>
+        <input
+          type="date"
+          class="date"
+          name="date"
+          id=""
+          placeholder="Select Date"
+        />
+      </div>
+      <div class="NumOfPass">
+        <h2>Number of Passengers</h2>
+        <input class="NumOfPassInput" type="number" name="passengers" id="" placeholder="1(min)-10(max)" />
+      </div>
+    </div>
+      <br />
+    </div>
+    <button type="submit" class="ticketConfirm">Submit</button>
+  </form>
+  </body>
+</html>
